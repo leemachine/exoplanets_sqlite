@@ -48,10 +48,26 @@ INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES (
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('gas_giant', 'hd_31527c', 'gas giant', '10.84', '10', '5160');
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('gas_giant', 'hd_31527d', 'gas giant', '16.5535', '11', '5160');
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('super_earth', 'kepler_1658b', 'rocky planet about 5 times the size of earth', '0.4280839', '3', '6216');
-INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('super_earth', 'kepler_16589b', 'rocky planet about 10 times the size of earth', '0.928542', '5', '');
-INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('rocky', 'kepler_16589c', 'small rocky planet', '0.0014', '7', '');
+INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('super_earth', 'kepler_1659b', 'rocky planet about 10 times the size of earth', '0.928542', '5', '');
+INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('rocky', 'kepler_1659c', 'small rocky planet', '0.0014', '7', '');
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('super_earth', 'qatar_7b', 'large super earth', '1.88', '7', '6387');
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('hot_jupitor', 'wasp_181b', 'large hot gass giant', '15.88', '7', '1444');
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('ocean', 'wasp_183b', 'large rocky planet that is mostly water', '1.88', '7', '1069');
 
-/* now planet discovery data
+/* now planet discovery data */
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'gliese_143b', '2019', 'jpl', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('transit', 'gliese_387b', '2019', 'jpl', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('transit', 'hats_70b', '2019', 'jpl', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'hd_20003b', '2019', 'nasa', '0');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'hd_20003c', '2019', 'nasa', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('transit', 'hd_31527b', '2019', 'nasa', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'hd_31527c', '2019', 'esa', '0');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('gravitational_microlensing', 'hd_31527d', '2019', '', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'kepler_1658b', '2019', 'kepler_space_telescope', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('gravitational_microlensing', 'kepler_1659b', '2019', 'kepler_space_telescope', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('transit', 'kepler_1659c', '2019', 'kepler_space_telescope', '0');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'qata_7b', '2019', 'esa', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'wasp_181b', '2019', 'esa', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('direct_imaging', 'wasp_183b', '2019', '', '1');
+
+
