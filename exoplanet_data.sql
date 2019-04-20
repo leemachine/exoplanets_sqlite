@@ -11,16 +11,16 @@ INSERT INTO star (s_name) VALUES ('wasp_181');
 INSERT INTO star (s_name) VALUES ('wasp_183');
 
 /* now add star_type data */
-INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('k', 'gliese_143', 'orange', 'small main sequence star whose surface temperature is under about 4,000 K', '3500K', 'eridanus');
-INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('k', 'gliese_378', 'red', 'small main sequence star whose surface temperature is under about 4,000 K', '3500K', '');
-INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('f', 'hats_70', 'white', 'huge very hot, blue star in a post-main sequence that burns helium', '6500K', 'cetus');
-INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('a', 'hd_20003', 'blue', 'huge very hot, blue star in a post-main sequence that burns helium', '6500K', 'torus');
+INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('k', 'gliese_143', 'orange', 'small main sequence star', '3500K', 'eridanus');
+INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('k', 'gliese_378', 'red', 'small main sequence star', '3500K', '');
+INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('f', 'hats_70', 'white', 'blue star in a post-main sequence', '6500K', 'cetus');
+INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('a', 'hd_20003', 'blue', 'blue star in a post-main sequence', '6500K', 'torus');
 INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('o', 'hd_31527', 'blue', 'hottest star type', '3500K', '');
 INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('o', 'kepler_1658', 'blue', 'hottest star type', '3000K', '');
 INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('g', 'kepler_1659', 'yellow', 'most common main sequence star', '5000K', '');
 INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('m', 'qata_7', 'red', 'smalled type of star', '3000K', 'fornax');
-INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('b', 'wasp_181', 'blue', 'huge very hot, blue star in a post-main sequence that burns heliumr', '12000K', 'pictor');
-INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('b', 'wasp_183', 'blue', 'huge very hot, blue star in a post-main sequence that burns heliumr', '13000K', 'dorado');
+INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('b', 'wasp_181', 'blue', 'blue star in a post-main sequence', '12000K', 'pictor');
+INSERT INTO star_type (s_type, s_name, color, description, temperature, constellation ) VALUES ('b', 'wasp_183', 'blue', 'blue star in a post-main sequence', '13000K', 'dorado');
 
 /* now add planets into the database */
 INSERT INTO planet (p_name, s_name) VALUES ('gliese_143b', 'gliese_143');
