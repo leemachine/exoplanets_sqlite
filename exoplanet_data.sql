@@ -38,3 +38,7 @@ INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES (
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('super_earth', 'kepler_1658b', 'rocky planet about 5 times the size of earth', '0.4280839', '3', '6216');
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('super_earth', 'kepler_16589b', 'rocky planet about 10 times the size of earth', '0.928542', '5', '');
 INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('rocky', 'kepler_16589c', 'small rocky planet', '0.0014', '7', '');
+INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('super_earth', 'qatar_7b', 'large super earth', '1.88', '7', '6387');
+INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('hot_jupitor', 'wasp_181b', 'large hot gass giant', '15.88', '7', '1444');
+INSERT INTO planet_type (p_type, p_name, description, radius, d2s, d2e) VALUES ('ocean', 'wasp_183b', 'large rocky planet that is mostly water', '1.88', '7', '1069');
+
