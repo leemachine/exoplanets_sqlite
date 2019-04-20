@@ -5,6 +5,8 @@ CREATE TABLE planet (
         FOREIGN KEY ( s_name ) REFERENCES star( s_name )
 );
 
+CREATE INDEX Pk_planet_p_name ON planet ( p_name );
+
 CREATE TABLE star (
         s_name text ,
         CONSTRAINT Pk_star_s_name PRIMARY KEY ( s_name )
@@ -33,6 +35,8 @@ CREATE TABLE planet_type (
         FOREIGN KEY ( p_name ) REFERENCES planet( p_name )
 );
 
+CREATE INDEX Pk_planet_type_p_type ON planet_type ( p_type );
+
 CREATE TABLE star_type (
         s_type        text NOT NULL ,
         s_name        text ,
@@ -44,5 +48,7 @@ CREATE TABLE star_type (
         CONSTRAINT Pk_star_type_s_type PRIMARY KEY ( s_type ) ,
         FOREIGN KEY ( s_name ) REFERENCES star( s_name )
 );
+
+CREATE INDEX Pk_star_type_s_type ON star_type ( s_type );
 
 
