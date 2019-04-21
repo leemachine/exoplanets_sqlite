@@ -62,14 +62,10 @@ INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed
 INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'hd_20003c', '2019', 'nasa', '1');
 INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('transit', 'hd_31527b', '2019', 'nasa', '1');
 INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'hd_31527c', '2019', 'esa', '0');
-INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('gravitational', 'hd_31527d', '2019', '',
-'1');
-INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'kepler_1658b', '2019',
-'kepler_space_telescope', '1');
-INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('gravitational', 'kepler_1659b', '2019',
-'kepler_space_telescope', '1');
-INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('transit', 'kepler_1659c', '2019',
-'kepler_space_telescope', '0');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('gravitational', 'hd_31527d', '2019', '','1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'kepler_1658b', '2019' ,'kepler_space_telescope', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('gravitational', 'kepler_1659b', '2019', 'kepler_space_telescope', '1');
+INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('transit', 'kepler_1659c', '2019', 'kepler_space_telescope', '0');
 INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'qata_7b', '2019', 'esa', '1');
 INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('radial_velocity', 'wasp_181b', '2019', 'esa', '1');
 INSERT INTO discovery (disc_method, p_name, disc_date, disc_site, disc_confirmed) VALUES ('direct_imaging', 'wasp_183b', '2019', '', '1');
